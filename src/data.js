@@ -14,9 +14,11 @@
 */
 
 /**
- * data that is saved and used between user interactionss
+ * data that is saved and used between user interactions
  * @property {string} separator - the text to use as a "mirror"
  */
 export const data = {
-  separator: '|',
+  isDown: false,
+  startX: 0,
+  scrollLeft: 0
 };
